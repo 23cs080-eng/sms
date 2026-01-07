@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    background: url("../images/bg.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-logo {
+    height: 60px;
+    margin-bottom: 15px;
+}

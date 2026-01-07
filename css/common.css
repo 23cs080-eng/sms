@@ -1,0 +1,41 @@
+body {
+    background: url("../images/bg.img") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(79,70,229,0.9);
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 45px;
+}
+
+.profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.navbar a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    padding: 30px;
+}
